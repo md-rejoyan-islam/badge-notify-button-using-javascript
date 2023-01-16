@@ -1,0 +1,46 @@
+body{
+    box-sizing: border-box;
+    background-color: #ddeeff;
+    overflow: hidden;
+}
+#noticeDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+#svg{
+    position: relative;
+}
+#notification{
+position: absolute;
+visibility: hidden;
+background-color: red;
+color: white;
+padding: 3px;
+width: 16px;
+height: 16px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+text-align: center;
+top: -4px;
+left: 22px;
+}
+
+.btn{
+    background-color: rgba(0, 0, 255, 0.881);
+    padding: 8px 10px;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    display: block;
+    width: fit-content;
+}
+.btn:hover{
+    background-color: rgb(170, 0, 255);
+    cursor: pointer;
+}
